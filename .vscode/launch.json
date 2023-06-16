@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Development",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main/main_dev.dart",
+        "args": ["--target", "lib/main/main_dev.dart" ]
+        // "--flavor", "development",
+      },
+      {
+        "name": "Staging",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main/main_staging.dart",
+        "args": ["--target", "lib/main/main_staging.dart" ]
+        // "--flavor", "staging", 
+      },
+      {
+        "name": "Production",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "args": [ "--target", "lib/main.dart" ]
+        // "--flavor", "development",
+      }
+    ],
+    "compounds": []
+  }
+  
